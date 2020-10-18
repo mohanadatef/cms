@@ -1,0 +1,25 @@
+{
+    "name": "nwidart/mediacenter",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\MediaCenter\\Providers\\MediaCenterServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\MediaCenter\\": ""
+        }
+    }
+}
